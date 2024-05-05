@@ -1,0 +1,188 @@
+@import "var";
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main-nav {
+  position: absolute;
+  .wave {
+    z-index: 1;
+  }
+  .navbar-z {
+    z-index: 2;
+  }
+}
+.navbar-z {
+  padding-top: 20px;
+  font-size: 16px;
+  img {
+    height: 36px;
+    border-radius: 50%;
+  }
+  .logo {
+    color: $black;
+    font-weight: map-get($font-weight, semibold);
+    font-size: 24px;
+    padding-left: 1em;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+  .navbar-nav {
+    li {
+      padding-left: 30px;
+    }
+    .active {
+      color: $black !important;
+      border-bottom: 4px solid $yellow;
+      font-weight: map-get($font-weight, semibold) !important;
+    }
+    .nav-link {
+      color: $black;
+      font-weight: map-get($font-weight, regular);
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+    .contact {
+      color: $white;
+      background-color: $yellow;
+      border-radius: 3em;
+      //   }
+      &:hover {
+        color: $yellow;
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.hero {
+  .des {
+    padding-left: 5%;
+    h1 {
+      font-size: 32px;
+      font-weight: map-get($font-weight, medium);
+      .yellow {
+        font-size: 48px;
+        color: $yellow;
+        font-weight: map-get($font-weight, semibold) !important;
+      }
+    }
+    p {
+      color: $gray2;
+      font-size: 16px;
+    }
+  }
+}
+
+.btn-prm {
+  padding: 8px 25px;
+  color: $white;
+  background-color: $ijo;
+  border-radius: 3em;
+  border: 0px;
+  &:hover {
+    color: $ijo;
+    background-color: $black;
+  }
+}
+
+.tq {
+  .btn {
+    margin-left: 1em;
+  }
+  .cv {
+    text-decoration: underline;
+    color: $ijo;
+  }
+}
+
+.role {
+  margin-top: 20px;
+  // padding: 0 0 0 30px;
+  background-color: $gray;
+  h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .role-item {
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $white;
+
+    h4 {
+      font-size: 34px;
+      font-weight: map-get($font-weight, medium);
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: $gray2;
+      font-weight: map-get($font-weight, regular);
+    }
+  }
+  .role-prm {
+    @extend .role-item;
+    background-color: $ijo !important;
+
+    p {
+      color: $white;
+    }
+  }
+}
+
+.yellow {
+  color: $yellow;
+}
+.project {
+  h1 {
+    font-size: 36px;
+  }
+  .project-item {
+    margin: 10px;
+    padding: 20px 20px;
+    background-color: $gray;
+    border-radius: 20px;
+    img {
+      border: 0;
+    }
+    .btn-tag {
+      padding: 5px;
+      background-color: $yellow;
+    }
+  }
+}
+
+footer {
+  color: $white;
+  .bg-foot {
+    border-top: 5px solid $gray;
+    background-color: $ijo;
+  }
+  .btn-prm {
+    background-color: $yellow;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .copyright {
+    height: 20px;
+    .white {
+      p {
+        margin-top: 1em;
+        color: $black;
+      }
+      background-color: $white;
+    }
+    .yellow {
+      background-color: $yellow;
+    }
+    .black {
+      background-color: $black;
+    }
+  }
+}

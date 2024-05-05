@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  .navbar-z {
+    background-color: #4cc78e;
+  }
+  .logo {
+    font-size: 14px;
+    padding-left: 0;
+    display: none;
+  }
+  .role .role-item {
+    margin: 10px 10px;
+  }
+  .role .role-prm {
+    margin: 10px 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

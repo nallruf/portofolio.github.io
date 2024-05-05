@@ -1,0 +1,210 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-nav {
+  position: absolute;
+}
+
+.main-nav .wave {
+  z-index: 1;
+}
+
+.main-nav .navbar-z {
+  z-index: 2;
+}
+
+.navbar-z {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.navbar-z img {
+  height: 36px;
+  border-radius: 50%;
+}
+
+.navbar-z .logo {
+  color: #474747;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 1em;
+}
+
+.navbar-z .logo:hover {
+  color: #fed049;
+}
+
+.navbar-z .navbar-nav li {
+  padding-left: 30px;
+}
+
+.navbar-z .navbar-nav .active {
+  color: #474747 !important;
+  border-bottom: 4px solid #fed049;
+  font-weight: 600 !important;
+}
+
+.navbar-z .navbar-nav .nav-link {
+  color: #474747;
+  font-weight: 400;
+}
+
+.navbar-z .navbar-nav .nav-link:hover {
+  color: #fed049;
+}
+
+.navbar-z .navbar-nav .contact {
+  color: #ffffff;
+  background-color: #fed049;
+  border-radius: 3em;
+}
+
+.navbar-z .navbar-nav .contact:hover {
+  color: #fed049;
+  background-color: #ffffff;
+}
+
+.hero .des {
+  padding-left: 5%;
+}
+
+.hero .des h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.hero .des h1 .yellow {
+  font-size: 48px;
+  color: #fed049;
+  font-weight: 600 !important;
+}
+
+.hero .des p {
+  color: #828282;
+  font-size: 16px;
+}
+
+.btn-prm {
+  padding: 8px 25px;
+  color: #ffffff;
+  background-color: #4cc78e;
+  border-radius: 3em;
+  border: 0px;
+}
+
+.btn-prm:hover {
+  color: #4cc78e;
+  background-color: #474747;
+}
+
+.tq .btn {
+  margin-left: 1em;
+}
+
+.tq .cv {
+  text-decoration: underline;
+  color: #4cc78e;
+}
+
+.role {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.role h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.role .role-item, .role .role-prm {
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.role .role-item h4, .role .role-prm h4 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.role .role-item p, .role .role-prm p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #828282;
+  font-weight: 400;
+}
+
+.role .role-prm {
+  background-color: #4cc78e !important;
+}
+
+.role .role-prm p {
+  color: #ffffff;
+}
+
+.yellow {
+  color: #fed049;
+}
+
+.project h1 {
+  font-size: 36px;
+}
+
+.project .project-item {
+  margin: 10px;
+  padding: 20px 20px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+.project .project-item img {
+  border: 0;
+  height: 320px;
+  width: 100%;
+}
+
+.project .project-item .btn-tag {
+  padding: 5px;
+  background-color: #fed049;
+}
+
+footer {
+  color: #ffffff;
+}
+
+footer .bg-foot {
+  border-top: 5px solid #f7f7f7;
+  background-color: #4cc78e;
+}
+
+footer .btn-prm {
+  background-color: #fed049;
+}
+
+footer .btn-prm:hover {
+  color: #ffffff;
+}
+
+footer .copyright {
+  height: 20px;
+}
+
+footer .copyright .white {
+  background-color: #ffffff;
+}
+
+footer .copyright .white p {
+  margin-top: 1em;
+  color: #474747;
+}
+
+footer .copyright .yellow {
+  background-color: #fed049;
+}
+
+footer .copyright .black {
+  background-color: #474747;
+}
+/*# sourceMappingURL=main.css.map */
